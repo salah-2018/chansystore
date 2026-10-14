@@ -96,7 +96,7 @@
     btn.disabled = true;
 
     const data = new FormData(e.target);
-    fetch('', { method: 'POST', body: data })
+    fetch('https://script.google.com/macros/s/AKfycbwCFTcfXgse9qy3xt3L1EQYvHNQGbG6tCoNJ6eJbRGCgwlsXUsM1Ngg5QHHmYQZvD5d/exec', { method: 'POST', body: data })
     .then(() => {
       alert('🎉 تم إرسال طلبك بنجاح! سنتصل بك قريباً جداً لتأكيد الشحن.');
       e.target.reset();
