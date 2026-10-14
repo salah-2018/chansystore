@@ -56,7 +56,7 @@
 تفاصيل المنتج</p>
   
   <div class="price-box">
-    <span class="price">2900 د.ج</span>
+    <span class="price">300 د.ج</span>
     <span class="old-price">3400 د.ج</span>
   </div>
   
@@ -96,7 +96,7 @@
     btn.disabled = true;
 
     const data = new FormData(e.target);
-    fetch(''https://script.google.com/macros/s/AKfycbyWarAGLl0uCB2heO41fvHJ7ZImSo2sEThJq2jDta8A8I9yzISzY6GFu0wck-ZQg4qNmA/exec', { method: 'POST', body: data })
+    fetch('https://script.google.com/macros/s/AKfycbyWarAGLl0uCB2heO41fvHJ7ZImSo2sEThJq2jDta8A8I9yzISzY6GFu0wck-ZQg4qNmA/exec', { method: 'POST', body: data })
     .then(() => {
       alert('🎉 تم إرسال طلبك بنجاح! سنتصل بك قريباً جداً لتأكيد الشحن.');
       e.target.reset();
