@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محفظة ظهر رمادية فخمة</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; margin: 0; padding: 15px; direction: rtl; }
+    .card { max-width: 550px; margin: 20px auto; background: white; padding: 25px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
+    img { width: 100%; border-radius: 12px; object-fit: cover; max-height: 400px; }
+    h1 { font-size: 24px; color: #111827; margin: 15px 0 10px; }
+    .price-box { display: flex; align-items: center; gap: 12px; margin: 15px 0; }
+    .price { font-size: 26px; color: #e11d48; font-weight: bold; }
+    .old-price { text-decoration: line-through; color: #9ca3af; font-size: 18px; }
+    .badge { background: #fef2f2; color: #dc2626; padding: 8px 14px; border-radius: 8px; font-weight: bold; font-size: 14px; margin: 15px 0; display: inline-block; }
+    .field { margin-bottom: 15px; text-align: right; }
+    .field label { display: block; font-weight: bold; margin-bottom: 5px; color: #374151; font-size: 14px; }
+    .field input, .field select { width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; box-sizing: border-box; font-size: 15px; }
+    .btn { background: #16a34a; color: white; width: 100%; padding: 16px; font-size: 18px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: 0.2s; margin-top: 10px; }
+    .btn:hover { background: #15803d; }
+    #buy-popup { position: fixed; bottom: 20px; right: 20px; background: #fff; border: 1px solid #e5e7eb; padding: 14px 18px; border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); display: none; z-index: 99999; font-size: 14px; animation: slideUp 0.3s ease; }
+    @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 0.95; } }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <img src="https://pub-28310993d61b4793990ba3066dc743c6.r2.dev/products/originals/6139f32979e7de43fa1479a0a876fcf4a271db040ff740609c6e519260a1f2f1.jpg" alt="محفظة ظهر رمادية فخمة">
+  <h1>محفظة ظهر رمادية فخمة</h1>
+  <p style="color: #4b5563; line-height: 1.6;">حماية متكاملة للكمبيوتر المحمول (Dedicatd Laptop Protection): يحتوي على جيب مخصص ومبطن يوفر حماية فائقة للحواسيب المحمولة بمختلف الأحجام لحمايتها من الصدمات والاهتزازات أثناء التنقل.
+
+تنظيم داخلي ذكي وشامل (Efficient Multi-Pocket Organization): مقسم بجيب مخصص للتابلت وجيوب متعددة تتسع للأوراق، الأقلام، الشواحن، والأغراض الشخصية لتصل إليها بسهولة ونظام.
+
+تصميم عصري ومتين (Sleek & Durable Design): تجمع بين المظهر العصري الأنيق والخياطة المعززة خفيفة الوزن المصنوعة من مواد خامات متينة تحافظ على شكل الحقيبة وتتحمل الاستخدام اليومي المكثف.
+
+راحة تامة وأحزمة مريحة للظهر (Ergonomic & Comfortable Carry): مزودة بأحزمة كتف مريحة قابلة للتعديل ولوح خلفي مبطن ومبتكر يوفر تهوية متكاملة ويقلل الإجهاد أثناء الارتداء لفترات طويلة.
+
+مثالية للسفر والتنقل اليومي (Ideal for Business & Travel): مقسمة بسعة واسعة ومناسبة للمطارات والتنقل السريع، مما يجعلها الخيار المثالي لرجال الأعمال، الموظفين، والرحلات اليومية.
+
+المواصفات التقنية
+
+نوع المنتج: حقيبة ظهر رجالية للأعمال واللابتوب (Men's Laptop & Travel Backpack).
+
+حماية الأجهزة: جيب مبطن ومستقل للابتوب + جيب مخصص للتابلت (Tablette).
+
+الأقسام: عدة أقسام وجيوب تنظيمية للشواحن، الدفاتر، والأغراض الشخصية.
+
+نظام الراحة: تصميم أرغونومي (Ergonomic) مع أحزمة قابلة للتعديل وظهر مبطن.
+
+مقاومة الاستخدام: خامات عالية التحمل وخياطة معززة للاستخدام اليومي الشاق.
+
+الاستخدامات: السفر، العمل، التنقلات اليومية، والرحلات.
+
+محتويات العلبة: 1× حقيبة ظهر متطورة لحفظ اللابتوب والأعمال.
+
+تفاصيل المنتج</p>
+  
+  <div class="price-box">
+    <span class="price">2800 د.ج</span>
+    <span class="old-price">3400 د.ج</span>
+  </div>
+  
+  <div class="badge">🔥 سارع بالطلب، متبقي <b>8</b> قطع فقط في المخزون!</div>
+
+  <form id="orderForm">
+    <div class="field">
+      <label>الاسم الكامل:</label>
+      <input type="text" name="name" required placeholder="أدخل اسمك الكامل">
+    </div>
+    <div class="field">
+      <label>رقم الهاتف:</label>
+      <input type="tel" name="phone" required placeholder="06XXXXXXXX">
+    </div>
+    <div class="field">
+      <label>العنوان / الولاية والبلدية:</label>
+      <input type="text" name="address" required placeholder="مثال: الجزائر العاصمة، باب الزوار">
+    </div>
+    
+    <div class="field">
+      <label>الخيار / اللون:</label>
+      <select name="variant"><option value="أسود">أسود</option><option value="أزرق">أزرق</option><option value="أحمر">أحمر</option></select>
+    </div>
+    <button type="submit" class="btn">🛒 تأكيد الطلب (الدفع عند الاستلام)</button>
+  </form>
+</div>
+
+<!-- إشعار الشراء التفاعلي -->
+<div id="buy-popup">🛍️ <span id="pop-text"></span></div>
+
+<script>
+  // إرسال الطلب لـ Google Sheets
+  document.getElementById('orderForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('button');
+    btn.innerText = 'جاري تسجيل طلبك...';
+    btn.disabled = true;
+
+    const data = new FormData(e.target);
+    fetch('', { method: 'POST', body: data })
+    .then(() => {
+      alert('🎉 تم إرسال طلبك بنجاح! سنتصل بك قريباً جداً لتأكيد الشحن.');
+      e.target.reset();
+      btn.innerText = '🛒 تأكيد الطلب (الدفع عند الاستلام)';
+      btn.disabled = false;
+    })
+    .catch(() => {
+      alert('حدث خطأ في الاتصال، يرجى المحاولة مرة أخرى.');
+      btn.disabled = false;
+    });
+  });
+
+  // تفعيل إشعارات الشراء العشوائية (Pop-ups)
+  const sales = ["أمير من الجزائر العاصمة","سفيان من وهران","يوسف من قسنطينة","فاطمة من عنابة"];
+  if(sales.length > 0) {
+    setInterval(() => {
+      const pop = document.getElementById('buy-popup');
+      const text = document.getElementById('pop-text');
+      const rand = sales[Math.floor(Math.random() * sales.length)];
+      text.innerText = 'قام ' + rand + ' بشراء المنتج للتو!';
+      pop.style.display = 'block';
+      setTimeout(() => { pop.style.display = 'none'; }, 4500);
+    }, 12000);
+  }
+</script>
+</body>
+</html>
